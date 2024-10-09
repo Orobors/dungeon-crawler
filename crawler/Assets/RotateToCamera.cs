@@ -13,6 +13,6 @@ public class RotateToCamera : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.LookAt(-cam.transform.position);
-    }
+        transform.LookAt(-cam.transform.position + transform.position);
+    } 
 }
