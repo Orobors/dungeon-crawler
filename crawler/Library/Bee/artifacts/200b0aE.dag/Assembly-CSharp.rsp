@@ -358,9 +358,11 @@
 -analyzer:"/Applications/Unity/Hub/Editor/2022.3.7f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"/Applications/Unity/Hub/Editor/2022.3.7f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Movement.cs"
+"Assets/PlayerCollisions.cs"
 "Assets/RotateToCamera.cs"
-"Assets/Shoot.cs"
-"Assets/Spells.cs"
+"Assets/Spell.cs"
+"Assets/SpellManager.cs"
+"Assets/SpellsFolder/ids.cs"
 -langversion:9.0
 
 /deterministic

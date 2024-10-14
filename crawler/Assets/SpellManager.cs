@@ -2,8 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Spells : ScriptableObject
+public class SpellManager : MonoBehaviour
 {
-    public string name;
-
+    public List<Spell> spells;
 }
